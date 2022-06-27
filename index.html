@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tu Guia</title>
 </head>
 <body>
-    <h1>Tu Guia</h1>
-    <main>
-        <section>
-            <h3>Iniciate en tus juegos favoritos</h3>
-            <img src="" alt="">
+    <header class="header__index">
+        <nav>
+           <ul>
+              <li><a href="">Sobre nosotros</li></a>
+              <li><a href="">Counter Strike</a></li>
+              <li><a href="">League of Legends</a></li>
+              <li><a href="">Ultimas Noticias</a></li>
+           </ul> 
+        </nav>
+    </header>
+    <main class="cuerpo__index">
+        <section class="cuerpo__index--tituloInicial">
+            <h1>Tu Guia</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda odit facere saepe delectus qui iste ipsam voluptatum officia ipsa! Praesentium illum aut voluptatem ipsa ducimus libero nesciunt impedit non!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, est quis! Quidem, ex rem soluta maiores praesentium dolores impedit id. Rerum tempore a veritatis aliquid consequatur nisi fuga beatae! Ex.</p>
+            </div>    
         </section>
-        <section>
-            <h3>Avanza por los distintos niveles de aprendizaje</h3>
+        <section class="cuerpo__index--priSecc">
+            <h2>¡Iniciate en tus juegos favoritos!</h2>
+            <div class="div__imagen--cs"  data-aos="zoom-in-left" data-aos-duration="1500">
+                <a href="">Comienza!</a>
+            </div>    
+        </section>
+        <section class="cuerpo__index--segSecc">
+            <article>
+                <h2>Avanza por los distintos niveles de aprendizaje</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            </article>
+            <div class="div__imagen--rangos" data-aos="zoom-in-right" data-aos-duration="1000">
+            </div>
+        </section>
+        <section class="cuerpo__index--terSecc">
+            <h3>¡Ultimas Noticias!</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            <div class="div__imagen--nuevo">
+            </div>
         </section>
     </main>
     <footer>
@@ -25,5 +58,13 @@
             <li>Facebook</li>
         </ul>
     </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

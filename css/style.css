@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*ESTILOS HEADER*/
+
+.header__index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom,rgb(213 84 84),rgb(86 120 155));
+    opacity: 0.7;
+}
+header nav{
+    width: 95%;
+}
+
+header nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-style: italic;
+}
+
+/*BODY*/
+
+/*main*/
+
+h1{
+    text-align: center;
+}
+
+.cuerpo__index{
+    COLOR: #82cbf5;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65vh 100vh 100vh 100vh;
+    grid-template-areas:
+    "tituloInicial" 
+    "seccunoIndex"
+    "seccdosIndex"
+    "secctresIndex";
+}
+
+.cuerpo__index--tituloInicial{
+    grid-area: tituloInicial;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.cuerpo__index--priSecc{
+    grid-area: seccunoIndex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div__imagen--cs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 75%;
+    background-image: url(../images/cs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    transition-duration: 500ms;
+}
+
+.div__imagen--cs a{
+    text-decoration: none;
+    color: #5dcfba;
+    font-size: 1.5em;
+}
+
+.div__imagen--cs:hover{
+    box-shadow: 10px 4px 10px rgb(110, 169, 218);
+    transform:scale(0.9);
+    cursor: pointer;
+}
+
+.cuerpo__index--segSecc{
+    grid-area: seccdosIndex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div__imagen--rangos {
+    background-image: url(../images/rangos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60vh;
+    width: 90%;
+    opacity: 0.8;
+}
+
+.cuerpo__index--segSecc:hover{
+}
+
+.cuerpo__index--terSecc{
+    grid-area: secctresIndex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div__imagen--nuevo{
+    background-image: url(../images/valorant.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    border: 2px solid rgb(55, 132, 177);
+    animation: movimientoNuevo 4s linear 1s infinite normal;
+}
+
+@keyframes movimientoNuevo{
+    0%{
+        left: 0px;
+        right: 0px;
+    }
+    50%{
+        margin-left: 100px;
+        right: 0px;
+    }
+    100%{
+        left: 0px;
+        right: 0px;
+    }
+}
+
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(../images/fondoAnimado.png);
+}
+
+/*FOOTER*/
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to top,rgb(213 84 84),rgb(86 120 155));
+    opacity: 0.7;
+    padding: 0.5em 0em;
+}
