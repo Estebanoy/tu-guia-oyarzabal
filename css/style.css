@@ -13,7 +13,7 @@
     opacity: 0.7;
 }
 header nav{
-    width: 95%;
+    width: 100%;
 }
 
 header nav ul{
@@ -27,8 +27,12 @@ header nav ul{
 header nav ul li a{
     color: black;
     text-decoration: none;
-    font-size: small;
+    font-size: 1em;
     font-style: italic;
+}
+
+header nav ul li a:hover{
+    color: #5dcfba;
 }
 
 /*BODY*/
@@ -37,6 +41,15 @@ header nav ul li a{
 
 h1{
     text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 4px black;
+}
+h2{
+    font-size: 2rem;
+    text-shadow: 5px 4px black;
+}
+p{
+    font-size: 1em;
 }
 
 .cuerpo__index{
@@ -44,7 +57,7 @@ h1{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 65vh 100vh 100vh 100vh;
+    grid-template-rows: 75vh 100vh 100vh 100vh;
     grid-template-areas:
     "tituloInicial" 
     "seccunoIndex"
@@ -79,19 +92,24 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 2px solid black;
+    border: 2px solid rgb(46, 138, 243);
     transition-duration: 500ms;
 }
 
-.div__imagen--cs a{
+.div__texto--cs a{
     text-decoration: none;
     color: #5dcfba;
     font-size: 1.5em;
+    display: none;
 }
 
+.div__imagen--cs:hover .div__texto--cs a{
+    display: inline-block;
+}
+
+
 .div__imagen--cs:hover{
-    box-shadow: 10px 4px 10px rgb(110, 169, 218);
-    transform:scale(0.9);
+    box-shadow: 0px 0px 10px rgb(110, 169, 218);
     cursor: pointer;
 }
 
@@ -113,8 +131,6 @@ h1{
     opacity: 0.8;
 }
 
-.cuerpo__index--segSecc:hover{
-}
 
 .cuerpo__index--terSecc{
     grid-area: secctresIndex;
@@ -133,6 +149,7 @@ h1{
     width: 50%;
     border: 2px solid rgb(55, 132, 177);
     animation: movimientoNuevo 4s linear 1s infinite normal;
+    box-shadow: 0px 0px 15px;
 }
 
 @keyframes movimientoNuevo{
@@ -151,7 +168,7 @@ h1{
 }
 
 body{
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Staatliches', cursive;
     background-image: url(../images/fondoAnimado.png);
 }
 
