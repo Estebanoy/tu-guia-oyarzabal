@@ -8,56 +8,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Tu Guia</title>
 </head>
 <body>
-    <header class="header__index">
-        <nav>
-           <ul>
-              <li><a href="">Sobre nosotros</a></li>
-              <li><a href="">Counter Strike</a></li>
-              <li><a href="">League of Legends</a></li>
-              <li><a href="">Ultimas Noticias</a></li>
-           </ul> 
-        </nav>
-    </header>
+        <nav class="row navbar bg-light fixed-top fondoG" id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TU GUIA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end fondoG" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/counter-strike.html">Counter Strike</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">League of Legends</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Ultimas noticias</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
     <main class="cuerpo__index">
-        <section class="cuerpo__index--tituloInicial">
+        <section class="container d-flex flex-column justify-content-around tamañoSeccionTitulo">
             <h1>TU GUIA</h1>
-            <div>
+            <div class="container">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda odit facere saepe delectus qui iste ipsam voluptatum officia ipsa! Praesentium illum aut voluptatem ipsa ducimus libero nesciunt impedit non!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, est quis! Quidem, ex rem soluta maiores praesentium dolores impedit id. Rerum tempore a veritatis aliquid consequatur nisi fuga beatae! Ex.</p>
             </div>    
         </section>
-        <section class="cuerpo__index--priSecc">
+        <section class="container d-flex flex-column justify-content-around align-items-center tamañoSecciones">
             <h2>¡Iniciate en tus juegos favoritos!</h2>
             <div class="div__imagen--cs"  data-aos="zoom-in-left" data-aos-duration="1500">
                 <div class="div__texto--cs">
-                    <a href="">Comienza!</a>
+                    <a href="">Comienza ya!</a>
                 </div>
             </div>    
         </section>
-        <section class="cuerpo__index--segSecc">
+        <section class="container d-flex flex-column justify-content-around align-items-center tamañoSecciones">
             <h2>Mejora tu nivel</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            <div class="container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            </div>
             <div class="div__imagen--rangos" data-aos="zoom-in-right" data-aos-duration="1000">
             </div>
         </section>
-        <section class="cuerpo__index--terSecc">
+        <section class="container d-flex flex-column justify-content-around align-items-center tamañoSecciones">
             <h2>¡Ultimas Noticias!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            <div class="container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem impedit error incidunt quos obcaecati, id qui optio dolore expedita facilis exercitationem cupiditate delectus ipsa veniam nobis a consectetur unde?</p>
+            </div>
             <div class="div__imagen--nuevo">
             </div>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Facebook</a></li>
-        </ul>
-    </footer>
+    <footer class="row fondoG mt-3">
+    
+      <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+      </ul>
+      
+</footer>
 
 
 
@@ -65,6 +95,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+        </script>
+    <script src="./js/bootstrap.js"></script>
 </body>
 </html>

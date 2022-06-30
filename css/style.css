@@ -1,47 +1,27 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+/*INDEX INDEX INDEX*/
+
 /*ESTILOS HEADER*/
 
-.header__index{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom,rgb(213 84 84),rgb(86 120 155));
-    opacity: 0.7;
-}
-header nav{
-    width: 100%;
+#nav{
+    position: unset;
 }
 
-header nav ul{
-    text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5em;
+.fondoG{
+    background: linear-gradient(to right, #48809b, #a71f1f);
 }
-
-header nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-    font-style: italic;
-}
-
-header nav ul li a:hover{
-    color: #5dcfba;
-}
-
 /*BODY*/
 
 /*main*/
 
 h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     text-shadow: 5px 4px black;
 }
 h2{
@@ -54,7 +34,7 @@ p{
 
 .cuerpo__index{
     COLOR: #82cbf5;
-    text-align: center;
+   /* text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 75vh 100vh 100vh 100vh;
@@ -62,25 +42,90 @@ p{
     "tituloInicial" 
     "seccunoIndex"
     "seccdosIndex"
-    "secctresIndex";
+    "secctresIndex";*/
 }
 
-.cuerpo__index--tituloInicial{
+/*.cuerpo__index--tituloInicial{
     grid-area: tituloInicial;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center
+}*/
+
+.tamañoSecciones{
+    height: 100vh;
 }
 
-.cuerpo__index--priSecc{
+.tamañoSeccionTitulo{
+    height: 65vh;
+}
+
+#bannerCsgo{
+    height: 40vh;
+    width: 100%;
+    background-image: url(../images/bannerCsgo.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+
+.c-blanco{
+    color: white;
+}
+
+#imgPosCsgo{
+    background-image: url(../images/posicionamientoCsgo.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgComandCsgo{
+    background-image: url(../images/comandosCsgo.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+#imgBuyCsgo{
+    background-image: url(../images/menuDeComprasCsgo.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgPractCsgo{
+    background-image: url(../images/mapasDePracticaCsgo.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px #5cb7aa;
+    transition: 1ms;
+    transition-delay: 2s;
+}
+
+
+#seccUnoCsgo p{
+    text-align: center;
+}
+
+/*.cuerpo__index--priSecc{
     grid-area: seccunoIndex;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
+}*/
 
 .div__imagen--cs{
     display: flex;
@@ -88,7 +133,7 @@ p{
     align-items: center;
     height: 70vh;
     width: 75%;
-    background-image: url(../images/cs.jpg);
+    background-image: url(../images/bannerCsgo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -177,7 +222,11 @@ footer ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to top,rgb(213 84 84),rgb(86 120 155));
-    opacity: 0.7;
-    padding: 0.5em 0em;
+    opacity: 0.8;
+    padding: 0.5em 0;
+}
+
+footer ul a{
+    color: black;
+    text-decoration: none;
 }
