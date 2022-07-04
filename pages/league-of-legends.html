@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Tu Guia</title>
+    </head>
+<body>
+    <nav class="row navbar bg-light fixed-top fondoG" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">TU GUIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end fondoG" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./nosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./counter-strike.html">Counter Strike</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./league-of-legends.html">League of Legends</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./noticias.html">Ultimas noticias</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="container-fluid banner" id="bannerLol"></div>
+      </div>
+      
+    <section>
+            <div class="row">
+                <div class="container d-flex flex-column justify-content-around align-items-center mt-5">
+                    <h2>Da tus primeros pasos</h2>
+                    <p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima rerum illo nemo laudantium, aspernatur molestias adipisci nostrum.</p>
+                    <div id="imgLolMap"></div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="container d-flex flex-column justify-content-around align-items-center mt-5">
+                <h2>Una gran variedad de campeones</h2>
+                <p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima rerum illo nemo laudantium, aspernatur molestias adipisci nostrum.</p>
+                <div id="imgLolCamp"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="container d-flex flex-column justify-content-around align-items-center mt-5" id="rolesLol">
+                <h2>Conoce los diferentes roles</h2>
+                <p class="col-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima rerum illo nemo laudantium, aspernatur molestias adipisci nostrum.</p>
+                <div id="imgLolRol"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="row fondoG mt-3">
+    
+        <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+        </ul>
+        
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

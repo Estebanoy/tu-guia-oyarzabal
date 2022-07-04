@@ -10,10 +10,19 @@
 
 #nav{
     position: unset;
+    box-shadow: 0px 5px 10px #4089dd;
+}
+
+#icono{
+    font-size: 2em;
+    padding-left: 0.7em;
+}
+
+.offcanvas-body ul li a{
 }
 
 .fondoG{
-    background: linear-gradient(to right, #48809b, #a71f1f);
+    background: linear-gradient(to right,  #280e3c, #3ab5bb);
 }
 /*BODY*/
 
@@ -29,11 +38,10 @@ h2{
     text-shadow: 5px 4px black;
 }
 p{
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .cuerpo__index{
-    COLOR: #82cbf5;
    /* text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -63,21 +71,44 @@ p{
 }
 
 #bannerCsgo{
-    height: 40vh;
     width: 100%;
     background-image: url(../images/bannerCsgo.jpg);
     background-size: cover;
     box-shadow: 0px 0px 15px #5cb7aa;
 }
 
+#bannerLol{
+    width: 100%;
+    background-image: url(../images/leagueBanner.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+.banner{
+    height: 60vh;
+}
+
 h4{
     text-align: center;
-    color: white;
 }
 
 .c-blanco{
     color: white;
 }
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+body nav div .navbar-brand{
+    font-size: 2em;
+    color: white;
+    padding-left: 0.7em;
+}
+
+/* PAGE CSGO -- PAGE CSGO*/
 
 #imgPosCsgo{
     background-image: url(../images/posicionamientoCsgo.jpg);
@@ -119,6 +150,83 @@ h4{
     text-align: center;
 }
 
+/* PAGE LOL -- PAGE LOL*/
+
+#imgLolMap{
+    background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgLolCamp{
+    background-image: url(../images/lolCampeones.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgLolRol{
+    background-image: url(../images/lolRoles.jpg);
+    width: 65%;
+    height: 50vh;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+/** ---- SOBRE NOSOTROS PAGE ---- **/
+
+.accordion{
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-active-bg: #264150;
+    --bs-accordion-btn-focus-border-color: #ffffff;
+    --bs-accordion-border-color: white
+}
+
+h2{
+    text-align: center;
+}
+
+.btnBlanco{
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+.btnBlanco:hover{
+    background-color: white;
+    color: black;
+}
+
+/* NOTICIAS---NOTICIAS*/
+
+#carouselExampleCaptions{
+     box-shadow: 7px 10px 10px #2e7b99;
+}
+
+.textoCar{
+    background: #000000d9;
+    color: white;
+}
+
+.notCard {
+    TEXT-ALIGN: CENTER;
+    COLOR: BLACK;
+    border: 0px;
+    box-shadow: 10px 10px 10px #2d7895;
+    border-radius: 0px;
+}
+
+.btnNoticias{
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
 /*.cuerpo__index--priSecc{
     grid-area: seccunoIndex;
     display: flex;
@@ -133,7 +241,7 @@ h4{
     align-items: center;
     height: 70vh;
     width: 75%;
-    background-image: url(../images/bannerCsgo.jpg);
+    background-image: url(../images/cs.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -214,6 +322,7 @@ h4{
 
 body{
     font-family: 'Staatliches', cursive;
+    color: white;
     background-image: url(../images/fondoAnimado.png);
 }
 
@@ -227,6 +336,16 @@ footer ul{
 }
 
 footer ul a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer ul a:hover{
+    color: black;
+}
+
+footer{
+     box-shadow: 0px 0px 20px rgb(43 130 189);
+     padding-top: 1em;
 }

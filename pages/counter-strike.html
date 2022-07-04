@@ -13,47 +13,42 @@
     <title>Tu Guia</title>  
 </head>
 <body>
-    <nav class="row navbar bg-light fixed-top fondoG" id="nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">TU GUIA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end fondoG" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <nav class="row navbar bg-light fixed-top fondoG c-blanco" id="nav">
+            <div class="container-fluid">
+            <a class="navbar-brand" id="icono" href="../index.html">TU GUIA</a>
+            <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end fondoG" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./counter-strike.html">Counter Strike</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./league-of-legends.html">League of Legends</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./noticias.html">Ultimas noticias</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/counter-strike.html">Counter Strike</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">League of Legends</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Ultimas noticias</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
-          </div>
+        </nav>
+        <div class="row">
+            <div class="container-fluid banner" id="bannerCsgo"></div>
         </div>
-      </nav>
-      <div class="row">
-        <div class="container-fluid" id="bannerCsgo">
-        </div>
-      </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
             <h4>¡Comienza tu entrenamiento!</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
+            <p class="c-blanco">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
             <div id="imgPosCsgo">
             </div>
         </div>
@@ -82,10 +77,10 @@
             </div>
         </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
-            <h4>¡Comprende el funcionamiento de la economia!</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
-            <div id="imgBuyCsgo">
-            </div>
+                <h4>¡Comprende el funcionamiento de la economia!</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
+                <div id="imgBuyCsgo">
+                </div>
         </div>  
     
 
