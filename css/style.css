@@ -38,18 +38,6 @@ p {
   font-size: 1.4em;
 }
 
-.cuerpo__index {
-  /* text-align: center;
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 75vh 100vh 100vh 100vh;
-   grid-template-areas:
-   "tituloInicial" 
-   "seccunoIndex"
-   "seccdosIndex"
-   "secctresIndex";*/
-}
-
 /*.cuerpo__index--tituloInicial{
     grid-area: tituloInicial;
     text-align: center;
