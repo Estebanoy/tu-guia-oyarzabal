@@ -5,24 +5,22 @@
   box-sizing: border-box;
 }
 
-/*INDEX INDEX INDEX*/
-/*ESTILOS HEADER*/
-#nav {
-  position: unset;
-  box-shadow: 0px 5px 10px #4089dd;
+a {
+  text-decoration: none;
 }
 
-#icono {
-  font-size: 2em;
-  padding-left: 0.7em;
+h4 {
+  text-align: center;
 }
 
-.fondoG {
-  background: linear-gradient(to right, #280e3c, #3ab5bb);
+h2 {
+  text-align: center;
 }
 
-/*BODY*/
-/*main*/
+.c-blanco {
+  color: white;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -38,46 +36,36 @@ p {
   font-size: 1.4em;
 }
 
-/*.cuerpo__index--tituloInicial{
-    grid-area: tituloInicial;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center
-}*/
-.tamañoSecciones {
-  height: 100vh;
-}
-
-.tamañoSeccionTitulo {
-  height: 65vh;
-}
-
-#bannerCsgo {
-  width: 100%;
-  background-image: url(../images/bannerCsgo.jpg);
-  background-size: cover;
-  box-shadow: 0px 0px 15px #5cb7aa;
-}
-
-#bannerLol {
-  width: 100%;
-  background-image: url(../images/leagueBanner.jpg);
-  background-size: cover;
-  box-shadow: 0px 0px 15px #5cb7aa;
-}
-
 .banner {
   height: 60vh;
 }
 
-h4 {
-  text-align: center;
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.8;
+  padding: 0.5em 0;
 }
 
-.c-blanco {
-  color: white;
+footer ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer ul a:hover {
+  color: black;
+}
+
+footer {
+  box-shadow: 0px 0px 20px rgb(43, 130, 189);
+  padding-top: 1em;
+}
+
+#nav {
+  position: unset;
+  box-shadow: 0px 5px 10px #4089dd;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
@@ -92,128 +80,37 @@ body nav div .navbar-brand {
   padding-left: 0.7em;
 }
 
-/* PAGE CSGO -- PAGE CSGO*/
-#imgPosCsgo {
-  background-image: url(../images/posicionamientoCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgComandCsgo {
-  background-image: url(../images/comandosCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgBuyCsgo {
-  background-image: url(../images/menuDeComprasCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgPractCsgo {
-  background-image: url(../images/mapasDePracticaCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-  transition: 1ms;
-  transition-delay: 2s;
-}
-
-#seccUnoCsgo p {
-  text-align: center;
-}
-
-/* PAGE LOL -- PAGE LOL*/
-#imgLolMap {
-  background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px black;
-}
-
-#imgLolCamp {
-  background-image: url(../images/lolCampeones.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px black;
-}
-
-#imgLolRol {
-  background-image: url(../images/lolRoles.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: contain;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-/** ---- SOBRE NOSOTROS PAGE ---- **/
-.accordion {
-  --bs-accordion-active-color: #ffffff;
-  --bs-accordion-active-bg: #264150;
-  --bs-accordion-btn-focus-border-color: #ffffff;
-  --bs-accordion-border-color: white ;
-}
-
-h2 {
-  text-align: center;
-}
-
-.btnBlanco {
-  color: white;
-  border: 1px solid white;
-  border-radius: 0px;
-}
-
-.btnBlanco:hover {
-  background-color: white;
+ul li a:hover {
   color: black;
 }
 
-/* NOTICIAS---NOTICIAS*/
-#carouselExampleCaptions {
-  box-shadow: 7px 10px 10px #000000;
+#sidebar li a:hover {
+  color: black;
 }
 
-.textoCar {
-  background: rgba(0, 0, 0, 0.8509803922);
+body {
+  font-family: "Staatliches", cursive;
   color: white;
+  background-image: url(../images/fondoAnimado.png);
 }
 
-.notCard {
-  TEXT-ALIGN: CENTER;
-  COLOR: BLACK;
-  border: 0px;
-  box-shadow: 10px 10px 10px #000000;
-  border-radius: 0px;
+#icono {
+  font-size: 2em;
+  padding-left: 0.7em;
 }
 
-.btnNoticias {
-  border: 2px solid black;
-  border-radius: 0px;
+.fondoG {
+  background: linear-gradient(to right, #280e3c, #3ab5bb);
 }
 
-/*.cuerpo__index--priSecc{
-    grid-area: seccunoIndex;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}*/
+.tamañoSecciones {
+  height: 100vh;
+}
+
+.tamañoSeccionTitulo {
+  height: 65vh;
+}
+
 .div__imagen--cs {
   display: flex;
   justify-content: center;
@@ -296,37 +193,116 @@ h2 {
     right: 0px;
   }
 }
-body {
-  font-family: "Staatliches", cursive;
+#bannerCsgo {
+  width: 100%;
+  background-image: url(../images/bannerCsgo.jpg);
+  background-size: cover;
+  box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgPosCsgo {
+  background-image: url(../images/posicionamientoCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  box-shadow: 0px 0px 15px #000000;
+}
+
+#imgComandCsgo {
+  background-image: url(../images/comandosCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px #000000;
+}
+
+#imgBuyCsgo {
+  background-image: url(../images/menuDeComprasCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  box-shadow: 0px 0px 15px #000000;
+}
+
+#imgPractCsgo {
+  background-image: url(../images/mapasDePracticaCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px #000000;
+  transition: 1ms;
+  transition-delay: 2s;
+}
+
+#seccUnoCsgo p {
+  text-align: center;
+}
+
+#bannerLol {
+  width: 100%;
+  background-image: url(../images/leagueBanner.jpg);
+  background-size: cover;
+  box-shadow: 0px 0px 15px #5cb7aa;
+}
+
+#imgLolMap {
+  background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px black;
+}
+
+#imgLolCamp {
+  background-image: url(../images/lolCampeones.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px black;
+}
+
+#imgLolRol {
+  background-image: url(../images/lolRoles.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: contain;
+  background-position: center;
+  box-shadow: 0px 0px 15px #000000;
+}
+
+.textoCar {
+  background: rgba(0, 0, 0, 0.8509803922);
   color: white;
-  background-image: url(../images/fondoAnimado.png);
 }
 
-/*FOOTER*/
-footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  opacity: 0.8;
-  padding: 0.5em 0;
+.notCard {
+  text-align: CENTER;
+  color: BLACK;
+  border: 0px;
+  box-shadow: 10px 10px 10px #000000;
+  border-radius: 0px;
 }
 
-footer ul a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 1.2em;
+.btnNoticias {
+  border: 2px solid black;
+  border-radius: 0px;
 }
 
-footer ul a:hover {
-  color: black;
+#carouselExampleCaptions {
+  box-shadow: 7px 10px 10px #000000;
 }
 
-footer {
-  box-shadow: 0px 0px 20px rgb(43, 130, 189);
-  padding-top: 1em;
+.accordion {
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-active-bg: #264150;
+  --bs-accordion-btn-focus-border-color: #ffffff;
+  --bs-accordion-border-color: white ;
 }
 
-/* --- METODOLOGIA UTILIZANDO SASS --- */
 .botones {
   background-color: white;
   color: black;
@@ -336,6 +312,16 @@ footer {
 .botones:hover {
   background-color: black;
   color: white;
+}
+
+.btnBlanco {
+  color: white;
+  border: 1px solid white;
+  border-radius: 0px;
+}
+.btnBlanco:hover {
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

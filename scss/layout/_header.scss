@@ -1,0 +1,20 @@
+#nav{
+    position: unset;
+    box-shadow: 0px 5px 10px #4089dd;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+body nav div .navbar-brand{
+    font-size: 2em;
+    color: white;
+    padding-left: 0.7em;
+}
+
+ul li a:hover{
+    color: black;
+}
