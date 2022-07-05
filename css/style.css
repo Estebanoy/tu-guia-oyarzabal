@@ -115,7 +115,7 @@ body nav div .navbar-brand{
     width: 65%;
     height: 50vh;
     background-size: cover;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px #000000;
 }
 
 #imgComandCsgo{
@@ -124,14 +124,14 @@ body nav div .navbar-brand{
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px #000000;
 }
 #imgBuyCsgo{
     background-image: url(../images/menuDeComprasCsgo.jpg);
     width: 65%;
     height: 50vh;
     background-size: cover;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px #000000;
 }
 
 #imgPractCsgo{
@@ -140,7 +140,7 @@ body nav div .navbar-brand{
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px #000000;
     transition: 1ms;
     transition-delay: 2s;
 }
@@ -158,7 +158,7 @@ body nav div .navbar-brand{
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px black;
 }
 
 #imgLolCamp{
@@ -167,7 +167,7 @@ body nav div .navbar-brand{
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px black;
 }
 
 #imgLolRol{
@@ -176,7 +176,7 @@ body nav div .navbar-brand{
     height: 50vh;
     background-size: contain;
     background-position: center;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px #000000;
 }
 
 /** ---- SOBRE NOSOTROS PAGE ---- **/
@@ -206,7 +206,7 @@ h2{
 /* NOTICIAS---NOTICIAS*/
 
 #carouselExampleCaptions{
-     box-shadow: 7px 10px 10px #2e7b99;
+     box-shadow: 7px 10px 10px #000000;
 }
 
 .textoCar{
@@ -218,7 +218,7 @@ h2{
     TEXT-ALIGN: CENTER;
     COLOR: BLACK;
     border: 0px;
-    box-shadow: 10px 10px 10px #2d7895;
+    box-shadow: 10px 10px 10px #000000;
     border-radius: 0px;
 }
 
