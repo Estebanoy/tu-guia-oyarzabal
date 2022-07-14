@@ -2,7 +2,7 @@
     width: 100%;
     background-image: url(../images/bannerCsgo.jpg);
     background-size: cover;
-    box-shadow: 0px 0px 15px #5cb7aa;
+    box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
 
 
@@ -11,7 +11,7 @@
     width: 65%;
     height: 50vh;
     background-size: cover;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
 
 #imgComandCsgo{
@@ -20,14 +20,14 @@
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
 #imgBuyCsgo{
     background-image: url(../images/menuDeComprasCsgo.jpg);
     width: 65%;
     height: 50vh;
     background-size: cover;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
 
 #imgPractCsgo{
@@ -36,7 +36,7 @@
     height: 50vh;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px map-get($colores, colorHover);
     transition: 1ms;
     transition-delay: 2s;
 }

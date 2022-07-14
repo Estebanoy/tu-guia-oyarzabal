@@ -1,5 +1,5 @@
 .textoCar{
-    background: #000000d9;
+    background: rgba(0, 0, 0, 0.479);
     color: white;
 }
 
@@ -7,11 +7,11 @@
     text-align: CENTER;
     color: BLACK;
     border: 0px;
-    box-shadow: 10px 10px 10px #000000;
+    box-shadow: 10px 10px 10px map-get($colores, colorHover );
     border-radius: 0px;
 }
 
 .btnNoticias{
-    border: 2px solid black;
+    border: 2px solid map-get($colores, colorHover );
     border-radius: 0px;
 }

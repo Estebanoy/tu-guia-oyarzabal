@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Tu Guia</title>  
+    <meta name="description" content="Conoce todos los aspectos de counter strike y mejora rapidamente, aprendiendo sobre mapas, compras y comandos">
+    <title>Tu Guia Gamer | Aprende a jugar Counter-Strike</title>  
 </head>
 <body>
-        <nav class="row navbar bg-light fixed-top fondoG c-blanco" id="nav">
+    <header class="row">
+        <nav class="navbar bg-light fixed-top fondoG c-blanco" id="nav">
             <div class="container-fluid">
             <a class="navbar-brand" id="icono" href="../index.html">TU GUIA</a>
             <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -43,20 +64,32 @@
             </div>
             </div>
         </nav>
+        <nav id="nav2" class="fondoG pt-3">
+            <ul class="d-flex justify-content-around">
+              <div class="w-10">
+                <a href="../index.html"><img src="../favicon/favicon-32x32.png" alt=""></a>
+                </div>
+              <li><a href="../pages/counter-strike.html">Counter Strike</a></li>
+              <li><a href="../pages/league-of-legends.html">League of Legends</a></li>
+              <li><a href="../pages/nosotros.html">Sobre nosotros</a></li>
+              <li><a href="../pages/noticias.html">Noticias</a></li>
+            </ul>
+          </nav>
+        </header> 
         <div class="row">
             <div class="container-fluid banner" id="bannerCsgo"></div>
         </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
             <h4>¡Comienza tu entrenamiento!</h4>
-            <p class="c-blanco">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
+            <p class="c-blanco">Primeramente sera necesario descargar el juego de la biblioteca de steam y abrirlo por primera vez, si eres totalmente nuevo en el juego</p>
             <div id="imgPosCsgo">
             </div>
         </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
             <h4>¡Practica tus primero comandos!</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, reprehenderit fugiat.</p>
+            <p>Los comandos son muy utiles y sirven tanto para practicar de manera en solitario en un servidor propio como para definir parametros en una partida emparejada online.</p>
             <div class="d-flex justify-content-around align-items-center">
-                <ul>
+                <ul class="flex-column">
                     <li>Comando 1</li>
                     <li>Comando 2</li>
                     <li>comando 3</li>
@@ -72,13 +105,13 @@
         </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
             <h4>¡Mapas de practica especializados!</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
+            <p>Una gran manera de empezar a mejorar y poner manos a la obra es ponerse a prueba con mapas personalizados tanto sobre utilidad como velocidad y reaccion.</p>
             <div id="imgPractCsgo">
             </div>
         </div>
         <div id="seccUnoCsgo" class="row d-flex flex-column justify-content-around mt-5 tamañoSecciones c-blanco align-items-center">
                 <h4>¡Comprende el funcionamiento de la economia!</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi, exercitationem natus mollitia, voluptas</p>
+                <p>Es importante comprender como funcionan los bonus de dinero y como impactan ronda a ronda a tu economia y cuando comprar ciertas armas y utilidades y cuando no.</p>
                 <div id="imgBuyCsgo">
                 </div>
         </div>  

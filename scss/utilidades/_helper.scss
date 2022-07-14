@@ -1,3 +1,13 @@
 .banner{
     height: 60vh;
 }
+
+.fondoG{
+    background: linear-gradient(to right,  #280e3c, #3ab5bb);
+}
+
+@mixin dRow($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

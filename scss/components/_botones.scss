@@ -4,17 +4,20 @@
     padding: 10px 15px;
     border: 1px solid black;
     &:hover{
-        background-color: black;
+        background-color:map-get($colores, colorBlack);
         color: white;
     }
 }
 
-.btnBlanco{
-    color: white;
-    border: 1px solid white;
-    border-radius: 0px;
-    &:hover{
-        background-color: white;
-        color: black;
-    }
+.botonPrimario{
+    @extend .botones;
+        color: map-get($colores, colorPrincipal);
+        border: 1px solid map-get($colores , colorPrincipal)
+    
+}
+
+.botonSecundario{
+    @extend .botones;
+    color: map-get($colores, colorSecundario);
+    border: 1px solid map-get($colores, colorSecundario);
 }

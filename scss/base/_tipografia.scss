@@ -22,3 +22,9 @@ h2{
 p{
     font-size: 1.4em;
 }
+
+@media (min-width: 640px){
+    h2, p, li{
+        font-size: 1.3rem;
+    }
+}

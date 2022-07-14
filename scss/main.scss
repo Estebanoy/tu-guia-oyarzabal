@@ -5,10 +5,7 @@
 @import "utilidades/variables";
 @import "utilidades/helper";
 
-@import "layout/footer";
-@import "layout/forms";
-@import "layout/header";
-@import "layout/sidebar";
+
 
 @import "theme/theme";
 
@@ -21,3 +18,8 @@
 @import "components/carrusel";
 @import "components/acordions";
 @import "components/botones";
+
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/header";
+@import "layout/sidebar";

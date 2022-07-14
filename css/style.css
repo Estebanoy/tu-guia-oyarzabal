@@ -9,6 +9,24 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.8;
+  padding: 0.5em 0;
+}
+
+ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul a:hover {
+  color: black;
+}
+
 h4 {
   text-align: center;
 }
@@ -36,26 +54,254 @@ p {
   font-size: 1.4em;
 }
 
+@media (min-width: 640px) {
+  h2, p, li {
+    font-size: 1.3rem;
+  }
+}
 .banner {
   height: 60vh;
 }
 
-footer ul {
-  list-style: none;
+.fondoG {
+  background: linear-gradient(to right, #280e3c, #3ab5bb);
+}
+
+body {
+  font-family: "Staatliches", cursive;
+  color: white;
+  background-image: url(../images/fondoAnimado.png);
+}
+
+#icono {
+  font-size: 2em;
+  padding-left: 0.7em;
+}
+
+.tamañoSecciones {
+  height: 100vh;
+}
+
+.tamañoSeccionTitulo {
+  height: 65vh;
+}
+
+.divImagenCs {
   display: flex;
-  justify-content: space-around;
-  opacity: 0.8;
-  padding: 0.5em 0;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 75%;
+  background-image: url(../images/cs.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid rgb(46, 138, 243);
+  transition-duration: 500ms;
 }
 
-footer ul a {
-  color: rgb(255, 255, 255);
+.divTextoCs a {
   text-decoration: none;
-  font-size: 1.2em;
+  color: #5dcfba;
+  font-size: 1.5em;
+  display: none;
 }
 
-footer ul a:hover {
+.divImagenCs:hover .divTextoCs a {
+  display: inline-block;
+}
+
+.divImagenCs:hover {
+  box-shadow: 0px 0px 10px rgb(110, 169, 218);
+  cursor: pointer;
+}
+
+.cuerpoIndexSegSecc {
+  grid-area: seccdosIndex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divImagenRangos {
+  background-image: url(../images/rangos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 60vh;
+  width: 90%;
+  opacity: 0.8;
+}
+
+.cuerpoIndexTerSecc {
+  grid-area: secctresIndex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divImagenNuevo {
+  background-image: url(../images/valorant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 50%;
+  border: 2px solid rgb(55, 132, 177);
+  animation: movimientoNuevo 4s linear 1s infinite normal;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+@keyframes movimientoNuevo {
+  0% {
+    left: 0px;
+    right: 0px;
+  }
+  50% {
+    margin-left: 100px;
+    right: 0px;
+  }
+  100% {
+    left: 0px;
+    right: 0px;
+  }
+}
+#nav2 {
+  display: none;
+  background-color: lightblue;
+}
+
+#bannerCsgo {
+  width: 100%;
+  background-image: url(../images/bannerCsgo.jpg);
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgPosCsgo {
+  background-image: url(../images/posicionamientoCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgComandCsgo {
+  background-image: url(../images/comandosCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgBuyCsgo {
+  background-image: url(../images/menuDeComprasCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgPractCsgo {
+  background-image: url(../images/mapasDePracticaCsgo.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+  transition: 1ms;
+  transition-delay: 2s;
+}
+
+#seccUnoCsgo p {
+  text-align: center;
+}
+
+#bannerLol {
+  width: 100%;
+  background-image: url(../images/leagueBanner.jpg);
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgLolMap {
+  background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgLolCamp {
+  background-image: url(../images/lolCampeones.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+#imgLolRol {
+  background-image: url(../images/lolRoles.jpg);
+  width: 65%;
+  height: 50vh;
+  background-size: contain;
+  background-position: center;
+  box-shadow: 0px 0px 15px rgb(110, 169, 218);
+}
+
+.textoCar {
+  background: rgba(0, 0, 0, 0.479);
+  color: white;
+}
+
+.notCard {
+  text-align: CENTER;
+  color: BLACK;
+  border: 0px;
+  box-shadow: 10px 10px 10px rgb(110, 169, 218);
+  border-radius: 0px;
+}
+
+.btnNoticias {
+  border: 2px solid rgb(110, 169, 218);
+  border-radius: 0px;
+}
+
+#carouselExampleCaptions {
+  box-shadow: 7px 10px 10px rgb(110, 169, 218);
+}
+
+.accordion {
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-active-bg: #264150;
+  --bs-accordion-btn-focus-border-color: #ffffff;
+  --bs-accordion-border-color: white ;
+}
+
+.botones, .botonSecundario, .botonPrimario {
+  background-color: white;
   color: black;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+.botones:hover, .botonSecundario:hover, .botonPrimario:hover {
+  background-color: black;
+  color: white;
+}
+
+.botonPrimario {
+  color: #280e3c;
+  border: 1px solid #280e3c;
+}
+
+.botonSecundario {
+  color: #3ab5bb;
+  border: 1px solid #3ab5bb;
 }
 
 footer {
@@ -84,243 +330,20 @@ ul li a:hover {
   color: black;
 }
 
+@media (min-width: 640px) {
+  #nav {
+    display: none;
+  }
+  #nav2 {
+    display: block;
+  }
+  #nav2 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 #sidebar li a:hover {
-  color: black;
-}
-
-body {
-  font-family: "Staatliches", cursive;
-  color: white;
-  background-image: url(../images/fondoAnimado.png);
-}
-
-#icono {
-  font-size: 2em;
-  padding-left: 0.7em;
-}
-
-.fondoG {
-  background: linear-gradient(to right, #280e3c, #3ab5bb);
-}
-
-.tamañoSecciones {
-  height: 100vh;
-}
-
-.tamañoSeccionTitulo {
-  height: 65vh;
-}
-
-.div__imagen--cs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  width: 75%;
-  background-image: url(../images/cs.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid rgb(46, 138, 243);
-  transition-duration: 500ms;
-}
-
-.div__texto--cs a {
-  text-decoration: none;
-  color: #5dcfba;
-  font-size: 1.5em;
-  display: none;
-}
-
-.div__imagen--cs:hover .div__texto--cs a {
-  display: inline-block;
-}
-
-.div__imagen--cs:hover {
-  box-shadow: 0px 0px 10px rgb(110, 169, 218);
-  cursor: pointer;
-}
-
-.cuerpo__index--segSecc {
-  grid-area: seccdosIndex;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.div__imagen--rangos {
-  background-image: url(../images/rangos.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 60vh;
-  width: 90%;
-  opacity: 0.8;
-}
-
-.cuerpo__index--terSecc {
-  grid-area: secctresIndex;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.div__imagen--nuevo {
-  background-image: url(../images/valorant.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 70vh;
-  width: 50%;
-  border: 2px solid rgb(55, 132, 177);
-  animation: movimientoNuevo 4s linear 1s infinite normal;
-  box-shadow: 0px 0px 15px;
-}
-
-@keyframes movimientoNuevo {
-  0% {
-    left: 0px;
-    right: 0px;
-  }
-  50% {
-    margin-left: 100px;
-    right: 0px;
-  }
-  100% {
-    left: 0px;
-    right: 0px;
-  }
-}
-#bannerCsgo {
-  width: 100%;
-  background-image: url(../images/bannerCsgo.jpg);
-  background-size: cover;
-  box-shadow: 0px 0px 15px #5cb7aa;
-}
-
-#imgPosCsgo {
-  background-image: url(../images/posicionamientoCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgComandCsgo {
-  background-image: url(../images/comandosCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgBuyCsgo {
-  background-image: url(../images/menuDeComprasCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-#imgPractCsgo {
-  background-image: url(../images/mapasDePracticaCsgo.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-  transition: 1ms;
-  transition-delay: 2s;
-}
-
-#seccUnoCsgo p {
-  text-align: center;
-}
-
-#bannerLol {
-  width: 100%;
-  background-image: url(../images/leagueBanner.jpg);
-  background-size: cover;
-  box-shadow: 0px 0px 15px #5cb7aa;
-}
-
-#imgLolMap {
-  background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px black;
-}
-
-#imgLolCamp {
-  background-image: url(../images/lolCampeones.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0px 0px 15px black;
-}
-
-#imgLolRol {
-  background-image: url(../images/lolRoles.jpg);
-  width: 65%;
-  height: 50vh;
-  background-size: contain;
-  background-position: center;
-  box-shadow: 0px 0px 15px #000000;
-}
-
-.textoCar {
-  background: rgba(0, 0, 0, 0.8509803922);
-  color: white;
-}
-
-.notCard {
-  text-align: CENTER;
-  color: BLACK;
-  border: 0px;
-  box-shadow: 10px 10px 10px #000000;
-  border-radius: 0px;
-}
-
-.btnNoticias {
-  border: 2px solid black;
-  border-radius: 0px;
-}
-
-#carouselExampleCaptions {
-  box-shadow: 7px 10px 10px #000000;
-}
-
-.accordion {
-  --bs-accordion-active-color: #ffffff;
-  --bs-accordion-active-bg: #264150;
-  --bs-accordion-btn-focus-border-color: #ffffff;
-  --bs-accordion-border-color: white ;
-}
-
-.botones {
-  background-color: white;
-  color: black;
-  padding: 10px 15px;
-  border: 1px solid black;
-}
-.botones:hover {
-  background-color: black;
-  color: white;
-}
-
-.btnBlanco {
-  color: white;
-  border: 1px solid white;
-  border-radius: 0px;
-}
-.btnBlanco:hover {
-  background-color: white;
   color: black;
 }
 
