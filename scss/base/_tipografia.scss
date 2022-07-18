@@ -20,11 +20,11 @@ h2{
     text-shadow: 5px 4px black;
 }
 p{
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 @media (min-width: 640px){
-    h2, p, li{
+    li{
         font-size: 1.3rem;
     }
 }

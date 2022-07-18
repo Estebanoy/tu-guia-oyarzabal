@@ -19,7 +19,35 @@
 @import "components/acordions";
 @import "components/botones";
 
-@import "layout/footer";
 @import "layout/forms";
 @import "layout/header";
 @import "layout/sidebar";
+@import "layout/footer";
+
+@media (min-width: 640px){
+    #nav{
+        display: none;
+    }
+    #nav2{
+        display: block;
+        font-style: italic
+    }
+    #nav2 ul{
+        @include dRow(space-around, center);
+    }
+
+    .seccionMapas{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1000px) {
+    .seccionIniciar{
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 1fr;
+    }
+    p{
+        font-size: 2rem;
+    }
+}

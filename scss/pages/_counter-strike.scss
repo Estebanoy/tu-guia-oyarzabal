@@ -5,6 +5,23 @@
     box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
 
+.seccionMapas{
+    display: grid;
+    width: 90vw;
+    gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+
+.seccionMapas img{
+    width: 100%;
+    transition: all 0.5s;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 10px 10px map-get($colores, colorHover);
+    }
+}
 
 #imgPosCsgo{
     background-image: url(../images/posicionamientoCsgo.jpg);

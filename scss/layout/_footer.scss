@@ -1,5 +1,19 @@
-
 footer{
      box-shadow: 0px 0px 20px rgb(43 130 189);
      padding-top: 1em;
 }
+
+footer ul li a{
+     transition: .2s;
+     padding: 10px;
+     border-radius: 25%;
+     &:hover{
+          box-shadow: 0px 0px 15px black;
+          filter: none; 
+     }
+}
+
+footer ul:hover a{
+     filter: blur(1px);
+}
+

@@ -21,15 +21,5 @@ ul li a:hover{
 
 
 
-@media (min-width: 640px){
-    #nav{
-        display: none;
-    }
-    #nav2{
-        display: block;
-    }
-    #nav2 ul{
-        @include dRow(space-around, center);
-    }
-}
+
 
