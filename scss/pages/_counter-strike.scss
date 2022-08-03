@@ -16,10 +16,11 @@
 
 .seccionMapas img{
     width: 100%;
-    transition: all 0.5s;
+    
     border: 1px solid beige;
     border-radius: 50px;
     &:hover{
+        transition: all 0.5s;
         transform: scale(1.1);
         box-shadow: 10px 10px 10px map-get($colores, colorHover);
     }
