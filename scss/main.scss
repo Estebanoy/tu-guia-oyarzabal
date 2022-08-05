@@ -40,6 +40,9 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+    .banner{
+        height: 80vh;
+    }
 }
 
 @media (min-width:1000px) {
@@ -49,5 +52,8 @@
     }
     p{
         font-size: 2rem;
+    }
+    .banner{
+        height: 100vh;
     }
 }

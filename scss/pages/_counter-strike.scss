@@ -1,6 +1,6 @@
 #bannerCsgo{
     width: 100%;
-    background-image: url(../images/bannerCsgo.jpg);
+    background-image: url(../images/csBig.jpg);
     background-size: cover;
     box-shadow: 0px 0px 15px map-get($colores, colorHover);
 }
@@ -64,4 +64,9 @@
 
 #seccUnoCsgo p{
     text-align: center;
+}
+
+.carrusel-item img{
+    width: 960px;
+    height: 540px;
 }

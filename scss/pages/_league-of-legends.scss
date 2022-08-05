@@ -6,7 +6,7 @@
 }
 
 #imgLolMap{
-    background-image: url(../images/Posiciones-en-League-of-Legends-Wild-Rift.jpg);
+    background-image: url(../images/lolMapa.jpg);
     width: 65%;
     height: 50vh;
     background-size: cover;
@@ -27,7 +27,7 @@
     background-image: url(../images/lolRoles.jpg);
     width: 65%;
     height: 50vh;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 15px map-get($colores, colorHover );
 }
